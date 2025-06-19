@@ -4,7 +4,7 @@ The application parses a large volume of customers' orders JSON data to generate
 
 <img width="432" alt="before" src="https://github.com/user-attachments/assets/f9ad2920-5b21-4c97-a6bc-e3d3c3b96299" />
 
-The business sells apparel through five separete online stores, and each store’s customers' order JSON data is requested from a web-based order management platform. The data from each store is parsed, cleaned, and normalized before collectively being sorted. Items are first grouped by SKU. Then, since every item is available in multiple sizes each SKU's sizes are sorted logically (e.g. "SML" < "MED" < "LRG"). Finally the complete pick list is sorted alphanumerically as seen in the example below.
+The business sells apparel through five separete online stores. Each store’s customers' order JSON data is requested from a web-based order management platform, then the data from each store is parsed, cleaned, and normalized before collectively being sorted. Items are first grouped by SKU. Then, since every item is available in multiple sizes each SKU's sizes are sorted logically (e.g. "SML" < "MED" < "LRG"). Finally the complete pick list is sorted alphanumerically as seen in the example below.
 
 <img width="748" alt="after" src="https://github.com/user-attachments/assets/fc51691b-1cfc-4045-87ff-ccc689f6cb14" />
 
